@@ -63,3 +63,11 @@ function check() {
 
     document.getElementById("output").innerHTML = "";
 }
+
+function Logout() {
+    localStorage.removeItem("player1_name");
+    localStorage.removeItem("player2_name");
+    localStorage.removeItem("player1_score");
+    localStorage.removeItem("player2_score");
+    window.location.replace("index.html");
+}
