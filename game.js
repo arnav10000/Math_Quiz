@@ -69,5 +69,5 @@ function Logout() {
     localStorage.removeItem("player2_name");
     localStorage.removeItem("player1_score");
     localStorage.removeItem("player2_score");
-    window.location.replace("index.html");
+    window.location("index.html");
 }
